@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 25%;
+    grid-template-rows: 1fr 1fr 1fr 0.5fr;
+    grid-template-areas:
+        'd1 d2 d3 d3'
+        'd4 d5 d6 d7'
+        'd8 d9 d9 d7'
+        'd10 d11 d12 d12';
+}
+
+.d1 {
+    grid-area: d1;
+}
+
+.d2 {
+    grid-area: d2;
+}
+
+.d3 {
+    background-color: #f7f8f9;
+    grid-area: d3;
+}
+
+.d4 {
+    background-color: #f05638;
+    color: #fffbfb;
+    grid-area: d4;
+}
+
+.d5 {
+    grid-area: d5;
+}
+
+
+.d6 {
+    grid-area: d6;
+    color: #9fa3a7;
+}
+
+.d7 {
+    background-color: #8f76bc;
+    color: #fff;
+    grid-area: d7;
+}
+
+.d8 {
+    background-color: #f7f8f9;
+    grid-area: d8;
+}
+
+.d9 {
+    /*     need background url here */
+    background-color: #93b6b7;
+    grid-area: d9;
+}
+
+.d10 {
+    background-color: #38d5f4;
+    color: #fff;
+    grid-area: d10;
+}
+
+.d11 {
+    background-color: #f7f8f9;
+    grid-area: d11;
+}
+
+.d12 {
+    background-color: #2c2c2c;
+    color: #fff;
+    grid-area: d12;
+}
+
+img {
+    max-width: 100%;
+}
