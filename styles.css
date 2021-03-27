@@ -20,13 +20,14 @@ a {
 img {
     max-width: 100%;
     vertical-align: middle;
-    display: inline-block;
     border: 0;
 }
 
-.image {
+.landing-image {
     margin-top: 40px;
-    align-self: flex-end;
+    /*    align-self: flex-end;*/
+    width: 200px;
+    height: auto;
 }
 
 .caps {
@@ -50,6 +51,7 @@ h3 {
 
 .grey-text {
     color: #9fa3a7;
+    font-weight: 100;
 }
 
 .grid-container {
@@ -65,16 +67,10 @@ h3 {
 
 .d1 {
     grid-area: d1;
-}
-
-.heading {
-    max-width: 550px;
-    font-family: Arvo, sans-serif;
-    margin-bottom: 10px;
-    margin: .67em 0;
-    font-weight: 500;
-    text-align: center;
-    font-size: 2.8rem;
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 250px;
+    height: auto;
 }
 
 .d2 {
@@ -84,12 +80,44 @@ h3 {
 .d3 {
     background-color: #f7f8f9;
     grid-area: d3;
+    text-align: center;
+}
+
+.heading {
+    font-family: Arvo, sans-serif;
+    margin-bottom: 10px;
+    margin: .67em 0;
+    font-weight: 500;
+    text-align: center;
+    font-size: 2.7rem;
+    /*    text-align: center;*/
+    /*
+    padding-left: 150px;
+    padding-right: 150px;
+*/
+}
+
+.d3 > a {}
+
+.center {
+    /*   */
+    margin-top: 50px;
 }
 
 .d4 {
     background-color: #f05638;
     color: #fffbfb;
     grid-area: d4;
+    text-align: center;
+}
+
+.d4 > a {
+    color: yellow;
+    font-size: 1rem;
+}
+
+.d4 > img {
+    margin-top: 40px;
 }
 
 .d5 {
