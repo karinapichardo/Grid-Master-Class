@@ -8,7 +8,7 @@ My entire layout for this website was created with CSS grid, super awesome. Best
 
 This project really showed me the power that CSS grid has, it’s almost as if the sky is the limit with the layouts you’re able to create.
 
-I look forward to continuing my usage of CSS grid and seeing all the wonderful layouts I implement!
+I look forward to continuing my usage of CSS grid and seeing all the wonderful layouts I can implement!
 
 ## You can check out my final project here:
 
