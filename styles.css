@@ -189,8 +189,9 @@ h3 {
     font-size: 0.9rem;
     letter-spacing: 2px;
     font-weight: 600;
-    padding-left: 20px;
-    margin-left: 35%;
+    padding-left: 10px;
+    padding-top: 2px;
+    vertical-align: baseline;
     background-image: url(https://uploads-ssl.webflow.com/5bc242f45a5ed923b1704210/5bc2f42d5a5ed9663e707e7d_Shape.png);
     background-repeat: no-repeat;
     background-size: 15px;
@@ -198,6 +199,9 @@ h3 {
     width: 120px;
     height: 20px;
     border-radius: 8px;
+    position: absolute;
+    right: 9%;
+    top: 485px;
 }
 
 .text-block2 {
@@ -232,7 +236,7 @@ h3 {
 }
 
 .circle > img {
-    width: 240px;
+    width: 230px;
     margin-top: 50px;
 }
 
