@@ -199,9 +199,9 @@ h3 {
     width: 120px;
     height: 20px;
     border-radius: 8px;
-    position: absolute;
-    right: 9%;
-    top: 485px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 105px;
 }
 
 .text-block2 {
@@ -237,7 +237,7 @@ h3 {
 
 .circle > img {
     width: 230px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .d8 {
