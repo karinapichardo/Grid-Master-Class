@@ -10,6 +10,6 @@ This project really showed me the power that CSS grid has, it’s almost as if t
 
 I look forward to continuing my usage of CSS grid and seeing all the wonderful layouts I implement!
 
-You can check out my final project here:
+### You can check out my final project here:
 
 https://karinapichardo.github.io/Grid-Master-Class/
