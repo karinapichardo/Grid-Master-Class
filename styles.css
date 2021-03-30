@@ -478,12 +478,16 @@ h3 {
     }
 
     a {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     .caps {
         font-size: 1.1rem;
         line-height: 1.5;
+    }
+
+    .d1 {
+        margin-left: 10px;
     }
 
     .d1 > h3 {
@@ -492,16 +496,16 @@ h3 {
     }
 
     .grey-text {
-        font-size: 1.5rem;
+        font-size: 1.36rem;
     }
 
     .d4 > h3,
     .d8 > h3 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .d4 > a {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
 
     .d8 {
@@ -523,7 +527,7 @@ h3 {
     }
 
     .d6 > a {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     .twitter-container {
