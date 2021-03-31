@@ -1,6 +1,6 @@
 # Grid-Master-Class
 
-### Recreated the “Grid Master Class” website, designed by Webflow using only HTML5 and CSS3.
+### Recreated the “Grid Master Class” website, designed by ivan mayorov using only HTML5 and CSS3.
 
 I loved working on this project, it allowed me to further grasp my understanding of CSS grid. 
 
