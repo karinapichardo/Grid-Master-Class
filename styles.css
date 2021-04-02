@@ -453,7 +453,7 @@ h3 {
 @media (max-width: 680px) {
     .grid-container {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(12, 1fr);
+        grid-template-rows: (repeat, 12, 1fr);
         grid-template-areas:
             'd3'
             'd1'
